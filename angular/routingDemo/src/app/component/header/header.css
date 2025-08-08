@@ -1,0 +1,10 @@
+.nav-bar{
+    background-color: #bacc46;
+    padding: 10px;
+    text-align: center;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

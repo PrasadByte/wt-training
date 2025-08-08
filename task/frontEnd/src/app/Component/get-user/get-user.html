@@ -1,0 +1,24 @@
+<p>get-user works!</p>
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Number</th>
+            <th>Password</th>
+            <th>Account No</th>
+
+        </tr>
+    </thead>
+    <tbody>
+       <tr *ngFor="let user of users">
+            <td>{{user.Id}}</td>
+              <td>{{user.Name}}</td>
+                <td>{{user.Email}}</td>
+                  <td>{{user.Number}}</td>
+                    <td>{{user.Password}}</td>  
+                    <td>{{user.AccountNo}}</td>
+        </tr>
+    </tbody>
+</table>

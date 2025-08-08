@@ -1,0 +1,9 @@
+.nav-bar {
+  display: flex;
+  justify-content: center;   /* Center buttons instead of pushing them apart */
+  align-items: center;
+  gap: 20px;                 /* Add consistent space between buttons */
+  margin: 10px;
+  background-color: #f8f9fa;
+  padding: 10px;
+}

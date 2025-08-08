@@ -1,0 +1,33 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  font-family: Arial, sans-serif;
+  margin: 20px 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+thead {
+  background-color: #0077cc;
+  color: #fff;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+tbody tr:hover {
+  background-color: #f1f8ff;
+  transition: background 0.2s;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
