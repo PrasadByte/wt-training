@@ -1,0 +1,50 @@
+/* Apply a nice background and center everything */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6dd5fa, #2980b9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Style the container */
+.counter-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Heading style */
+.counter-container h1 {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+/* Button styling */
+.counter-container button {
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.counter-container button:hover {
+  background-color: #1e5f8a;
+}
+
+/* Count display */
+.counter-container p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #444;
+}
